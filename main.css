@@ -15,7 +15,6 @@ header{
     background-image: url("img/image/bg-header.png");
     background-position: right;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
 }
 .nav-header{
     padding-top: 3vh;
@@ -167,3 +166,125 @@ a{
     font-weight: 400;
     line-height: 160%; /* 25.6px */
 }
+/*--------------------------offer------------------------*/
+/*--------------------------gallery----------------------*/
+.gallery{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+.h2-gallery{
+    margin-bottom: 1vh;
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+}
+.p-gallery{
+    margin-bottom: 4vh;
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+.img-gallery-1, .img-gallery-2, .img-gallery-3{
+    width: 362px;
+    height: 330px;
+    margin-bottom: 2vh;
+}
+.img-gallery-1, .img-gallery-2{
+    margin-right: 2vw;
+}
+.img-gallery-4, .img-gallery-5, .img-gallery-6{
+    width: 362px;
+    height: 230px;
+}
+.img-gallery-4, .img-gallery-5{
+    margin-right: 2vw;
+}
+.a-gallery{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+/*--------------------------gallery----------------------*/
+/*--------------------------follow----------------------*/
+.follow{
+    height: 60vh;
+    background-image: url("img/image/bg-follow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h3-follow{
+    margin-top: 8vh;
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+}
+.h2-follow{
+    margin-top: 4vh;
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+}
+.tell-follow{
+    margin-top: 4vh;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.gmail-follow{
+    margin-top: 2vh;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.svg-follow{
+    padding-right: 1vw;
+}
+.logo-follow{
+    margin-top: 3vh;
+}
+.svg-logo-follow{
+    margin-right: 3vw;
+}
+/*--------------------------follow----------------------*/
+
